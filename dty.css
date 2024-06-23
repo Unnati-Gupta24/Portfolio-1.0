@@ -1,0 +1,157 @@
+body{
+    margin:0px;
+    text-align: center;
+    background-color: black;
+}
+.head{
+    height: 65vh;
+    background-image: url(io.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 2s, border-bottom 1s;
+}
+.horizontal-list li a:hover{
+    color: aqua;
+    border-bottom: 1px solid aqua;
+    transition: 0.3s ease-in-out;
+    text-shadow: 5px;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+.name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 20vh;
+}
+.social-icon li a i{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+.social-icon li a i:hover{
+    box-shadow: 0px 0px 6px 4px antiquewhite;
+}
+.about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.img{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+}
+.img img{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+    margin-top: -20vh;
+    border: 3px solid;
+    border-color: aqua;
+}
+.dodo{
+    font-family: cursive;
+    font-size: large;
+    color:azure;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+}
+.dodi{
+    margin-top: 10%;
+    font-size: x-large;
+}
+.stylebuton{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+    border: 2px solid;
+    border-color: aliceblue;
+    border-radius: 30%;
+    margin-bottom: 10%;
+    background-image: url(dl.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.buton{
+    margin: 5%;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-radius: 25%;
+    border: 3px solid;
+    border-color: rgb(127, 229, 255);
+    cursor: pointer;
+}
+.sty{
+    margin-left: 32%;
+    margin-right: 32%;
+    border: 2px dashed;
+    border-color: blanchedalmond;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+.dio{
+    border: 2px solid;
+    border-color: aquamarine;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-image: url(school.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.gio{
+    border: 2px dotted;
+    border-color: whitesmoke;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10%;
+    background-color: rgb(23, 22, 22);
+}
+.hio{
+    background-image: url(jd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vc;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+.fio{
+    padding: 20px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 15%;
+}
+.lio{
+    padding: 10px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 20%;
+    background-color: cornflowerblue;
+    border-color: aquamarine;
+}
+
